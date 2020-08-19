@@ -1,0 +1,153 @@
+<!--
+Author: Sho Carter-Daniel <shosilva@icloud.com>
+HTML Help
+- W3Schools - https://www.w3schools.com/html/
+- MDN - https://developer.mozilla.org/en-US/docs/Web/HTML
+============================================================
+Definition of semantic tags can be found here:
+https://www.w3schools.com/html/html5_semantic_elements.asp
+============================================================
+-->
+
+<!-- Declare the type of document that this is! -->
+<!DOCTYPE html>
+<html lang="en">
+	<!-- HEAD - like inside your head / mind. It cannot be seen, but dictates what will be shown -->
+	<head>
+		<title>Instagram</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+
+	<!-- BODY - what the world will see -->
+	<body>
+
+		<!--
+			HEADER OF WEBSITE
+			Navigation can go in here
+		-->
+		<header>
+			<nav>
+				<ul>
+					<li><a><i class="fa fa-camera"></i></a></li>
+					<li class="logo"><a><i class="fa fa-instagram"></i> Instagram</a></li>
+					<li><a><i class="fa fa-inbox"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- MAIN CONTENT OF WEBSITE -->
+		<main>
+
+			<!--
+				WEBSITES CAN BE SPLIT INTO SECTIONS
+				THIS IS THE FEEDS SECTION
+			-->
+			<section class="stories">
+				<div>
+					<div class="stories__one">
+						<img class="new" src="https://plchldr.co/i/400x400?bg=e74c3c" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img class="new" src="https://plchldr.co/i/400x400?bg=e67e22" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img class="new" src="https://plchldr.co/i/400x400?bg=f1c40f" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img src="https://plchldr.co/i/400x400?bg=1abc9c" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img src="https://plchldr.co/i/400x400?bg=2ecc71" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img src="https://plchldr.co/i/400x400?bg=3498db" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img src="https://plchldr.co/i/400x400?bg=9b59b6" alt="plchldr.co" />
+					</div>
+
+					<div class="stories__one">
+						<img src="https://plchldr.co/i/400x400?bg=34495e" alt="plchldr.co" />
+					</div>
+				</div>
+			</section>
+
+			<!--
+				WEBSITES CAN BE SPLIT INTO SECTIONS
+				THIS IS THE FEEDS SECTION
+			-->
+			<section class="feeds">
+				<article class="feeds__one">
+					<div class="user-information"><i class="fa fa-user-circle-o" aria-hidden="true"></i> James Carter</div>
+					<img data-likes="9" src="https://plchldr.co/i/400x400?bg=EB6361&text=Instagram" alt="plchldr.co" />
+					<div class="content">
+						<div class="action">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+							<i class="fa fa-share-square-o" aria-hidden="true"></i>
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+						</div>
+						<div><p data-likes="9601"></p></div>
+						<div><p data-time-ago="1 minute ago"></p></div>
+					</div>
+				</article>
+
+				<article class="feeds__one">
+					<div class="user-information"><i class="fa fa-user-circle-o" aria-hidden="true"></i> John Brown</div>
+					<img data-likes="2" src="https://plchldr.co/i/400x400?bg=3D8EB9&text=Instagram" />
+					<div class="content">
+						<div class="action">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+							<i class="fa fa-share-square-o" aria-hidden="true"></i>
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+						</div>
+						<div><p data-likes="2069"></p></div>
+						<div><p data-time-ago="12 minutes ago"></p></div>
+					</div>
+				</article>
+
+				<article class="feeds__one">
+					<div class="user-information"><i class="fa fa-user-circle-o" aria-hidden="true"></i> John Brown</div>
+					<img data-likes="2" src="https://plchldr.co/i/400x400?bg=FFFFFF&text=Instagram&fc=000000" />
+					<div class="content">
+						<div class="action">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+							<i class="fa fa-share-square-o" aria-hidden="true"></i>
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+						</div>
+						<div><p data-likes="199"></p></div>
+						<div><p data-time-ago="15 minutes ago"></p></div>
+					</div>
+				</article>
+			</section>
+		</main>
+
+		<!--
+			FOOTER: You have got to have a footer!
+			How can you have a website without a footer
+		-->
+		<footer>
+			<nav>
+				<ul>
+					<li><a><i class="fa fa-home" aria-hidden="true"></i></a></li>
+					<li><a><i class="fa fa-search" aria-hidden="true"></i></a></li>
+					<li><a><i class="fa fa-plus-square-o" aria-hidden="true"></i></a></li>
+					<li><a><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+					<li><a><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+		</footer>
+
+		<script src="instagram.js"></script>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+/**
+Author: Sho Carter-Daniel <shosilva@icloud.com>
+============================================================
+CSS Help
+- W3Schools - https://www.w3schools.com/Css/
+- MDN - https://developer.mozilla.org/en-US/docs/Web/CSS
+============================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: 'Poppins', sans-serif; font-size: 11px; height: 100%; }
+header { border-bottom: 1px solid #ddd; }
+img { width: 100%; }
+nav { }
+nav ul { background: #ffffff; display: flex; list-style-type: none; text-align: center; width: 100%; }
+nav ul li { width: 20%; }
+nav ul li a { display: block; font-size: 20px; padding: 10px; }
+
+header { max-width: 400px; width: 100%; }
+header nav ul li { width: 25%; }
+header nav ul li a { }
+header nav ul li:nth-child(1) { text-align: left; }
+header nav ul li:last-of-type { text-align: right; }
+header nav ul li.logo { font-family: 'Pacifico', cursive; width: 50%; padding: 0; }
+header nav ul li.logo a { padding: 0; }
+footer { bottom: 0; position: fixed; width: 100%; }
+main { height: 82vh; max-width: 400px; width: 100%; }
+
+.stories { background: #f1f1f1; overflow-y: auto; padding: 10px; }
+.stories > div { width: 200%; }
+.stories__one { display: inline; padding: 5px; }
+.stories__one img { border: 2px solid transparent; border-radius: 50px; width: 10%; }
+.stories__one img.new { border: 2px solid #e74c3c; }
+
+.feeds { overflow-y: auto; padding-bottom: 40px; }
+.feeds__one { }
+.feeds__one p { margin-bottom: 5px; }
+.feeds__one .action { }
+.feeds__one .content { padding: 10px; }
+.feeds__one .user-information { border-bottom: 1px solid #dddddd; margin: 0; padding: 10px; }
+.feeds__one .action .liked { color: #c0392b; }
+.feeds__one .action i { display: inline-block; font-size: 20px; padding: 5px; }
+.feeds__one .action i:first-of-type { padding-left: 0; }
+.feeds__one .action i:last-of-type { float: right; }
+
+[data-time-ago] { color: #aaa; font-size: 10px; text-transform: uppercase; }
+
+footer { max-width: 400px; width: 100%; }
