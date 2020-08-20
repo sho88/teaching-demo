@@ -19,7 +19,8 @@
 	
 	var events = {
 		onLikeClick: function(e) {
-			var likes = e.target.parentNode.parentNode.querySelector('[data-likes]');
+			var content = e.target.closest('content');
+			var likes = content.querySelector('[data-likes]');
 			e.target.classList.toggle('fa-heart-o');
 			e.target.classList.toggle('fa-heart');
 			e.target.classList.toggle('liked');
